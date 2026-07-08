@@ -1,4 +1,6 @@
-Información de tablas del siniestro, reserva del siniestro y pago del siniestro
+Información de tablas del siniestro, reserva del siniestro y pago del siniestro.
+El objetivo es consolidar las bases para que tenga un resumen desde la apertura del siniestro que teng el monto de la reserva y cuanto esta pagado a la fecha requerida. Las fechas de corte deben relacionarse de la siguiente manera: 
+-Para fecha de apertura es fec_hora_reclamo (fecha de ocurrencia) se relaciona con fec_ingreso_contable (fecha de pago o generacion de autorizacion tecnica) considerando que un siniestro puede tener varias aut tec, se debe suma todo lo pagado hasta la fecha limite de la fecha de ocurrencia. Por último la fecha de reserva o estimación debe relacionarse con la fec_estim que es el inventario a la fecha requerida (parametrizada en la fecha de ocurrencia)
 
 Tabla: stro_header (info principal del siniestro)
 Columnas:
