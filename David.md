@@ -3,6 +3,8 @@ cod_tipo_produccion (INT)
 tipo_producción (VARCHAR)
 año (INT)
 numero_mes (INT)
+mes (VARCHAR)
+fecha (DATE)
 sucursal (VARCHAR)
 cod_ramo (INT)
 ramo (VARCHAR)
@@ -36,6 +38,8 @@ cod_tipo_produccion (INT)
 tipo_producción (VARCHAR)
 año (INT)
 numero_mes (INT)
+mes (VARCHAR)
+fecha (DATE)
 cod_ramo (INT)
 ramo (VARCHAR)
 cod_tipo_agente (INT)
@@ -49,3 +53,32 @@ presupuesto (DECIMAL 2)
 punto_vta (VARCHAR)
 pertenece_grupo (VARCHAR)
 ejecutivo_comercial (VARCHAR)
+
+Tabla kpi_crm
+año (INT)
+numero_mes (INT)
+mes (VARCHAR)
+fecha (DATE)
+cod_ramo (INT)
+ramo (VARCHAR)
+cod_tipo_agente (INT)
+tipo_agente (VARCHAR)
+cod_agente (INT)
+agente (VARCHAR)
+canal_emision (VARCHAR)
+prima_targuet (DECIMAL 2)
+punto_vta (VARCHAR)
+ejecutivo_comercial (VARCHAR)
+cliente (VARCHAR)
+quotation (VARCHAR)
+hit_ratio (VARCHAR)
+etapa_actual (VARCHAR)
+estado (VARCHAR)
+
+Tabla dim_agente
+Tabla dim_ramo
+Tabla dim_punto_venta
+Tabla dim_ejecutivo
+Tabla dim_agrupador
+Tabla dim_calendario
+Tabla dim_canal_emision
