@@ -1,4 +1,4 @@
-- Reporte de asistencias:
+Reporte de asistencias:
 Se genera un reporte con información del vehículo para enviar a proveedores de asistencias. Este reporte se genera con el enlace de tabla maestra de pólizas, tabla de vehículos por póliza, tabla de información de vehículos, tabla de asegurados. Los encabezados del reporte son:
 Id_póliza, INT tb_polizas
 ítem, INT tb_items - tb_polizas
