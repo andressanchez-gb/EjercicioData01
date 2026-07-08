@@ -1,3 +1,5 @@
+Información de tablas del siniestro, reserva del siniestro y pago del siniestro
+
 Tabla: stro_header (info principal del siniestro)
 Columnas:
           id_stro  INT
