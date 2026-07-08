@@ -25,4 +25,5 @@ Reportes de Tarjeta de Crédito
 	Sábana de pagos_emasivos (tablas)
 			Campo del último mes (junio 2026)
 			Campo Cedula
+			Campo Forma Pago
 
